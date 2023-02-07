@@ -1,0 +1,212 @@
+:root {
+  --main-color: rgb(16, 82, 82)
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.sec1 {
+  margin: 50px;
+  min-height: 452.775px;
+  width: calc(100%/3);
+  display: flex;
+  flex-direction: column;
+  background-color: var(--main-color);
+
+}
+
+.raper {
+  margin-bottom: 20px;
+  width: calc(100% - 30px);
+  padding: 10px;
+  padding-left: 20px;
+  position: relative;
+  display: flex;
+  gap: 20px;
+}
+
+.raper .sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.raper .sec .butons {
+  display: flex;
+  gap: 20%;
+  flex: 3;
+  text-align: right;
+}
+
+.raper .sec .butons .toggel {
+  background-color: rgba(29, 189, 197, 0.689);
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.raper .sec .butons .toggel:hover {
+  background-color: rgb(29, 189, 197);
+}
+
+.raper .sec .butons .delete {
+  background-color: rgba(255, 0, 0, 0.792);
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.raper .sec .butons .delete:hover {
+  background-color: rgb(255, 0, 0);
+}
+
+.raper .sec .butons .icon {
+  background-color: rgba(29, 189, 197, 0.689);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 50px;
+}
+
+.raper .sec .butons .icon:hover {
+  background-color: rgb(29, 189, 197);
+  color: black;
+}
+
+
+.raper .sec .no {
+  flex: 1;
+  margin-right: 10%;
+  background-color: rgba(29, 189, 197, 0.689);
+  color: white;
+  border-radius: 5px;
+  width: 250px;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  margin-left: 30px;
+}
+
+.raper .sec .no::before {
+  content: "N";
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  left: -40px;
+  top: 3px;
+  background-color: red;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.raper .sec .yes {
+  flex: 1;
+  margin-right: 10%;
+  background-color: rgba(29, 189, 197, 0.689);
+  color: white;
+  border-radius: 5px;
+  width: 300px;
+  text-align: center;
+  position: relative;
+  margin-left: 30px;
+  padding: 10px;
+}
+
+.raper .sec .yes::before {
+  content: "Y";
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  left: -40px;
+  top: 3px;
+  background-color: green;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.sec2 {
+  margin: 50px;
+  min-height: 450px;
+  width: calc(100%/3);
+  display: flex;
+  flex-direction: column;
+  background-color: var(--main-color);
+  color: rgb(20, 2, 2);
+}
+
+.sec2 .section {
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.sec2 .section input {
+  padding: 20px;
+  width: 300px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(29, 189, 197, 0.034);
+  color: white;
+}
+
+.sec2 button {
+  width: 100px;
+  margin: 0 20px;
+  background-color: rgba(29, 189, 197, 0.689);
+  color: white;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  border-radius: 10px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.sec2 button:hover {
+  background-color: rgb(29, 189, 197);
+}
+
+.sec2 .favorit {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.sec2 .favorit h2 {
+  background-color: transparent;
+  color: white;
+  border-radius: 5px;
+  width: 300px;
+  text-align: center;
+}
+
+.sec2 .favorit .subm {
+  background-color: rgba(29, 189, 197, 0.689);
+  color: white;
+  width: 100%;
+  text-align: center;
+}
